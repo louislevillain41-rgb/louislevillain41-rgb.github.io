@@ -104,11 +104,9 @@ body {
 
   width: 100%;
 }
-
-}
 /* --- PAGE HEADER --- */
 .page-header {
-  padding: 140px 20px 60px;
+  padding: 140px 40px 60px;
   text-align: center;
 }
 
@@ -119,8 +117,8 @@ body {
 
 .page-header p {
   color: #b5b5b5;
+  font-size: 1.1rem;
 }
-
 /* --- CARS GRID --- */
 .cars {
   display: grid;
