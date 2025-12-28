@@ -431,3 +431,13 @@ body {
   font-size: 0.85rem;
   color: #666;
 }
+@media (max-width: 768px) {
+  .footer-content {
+    text-align: center;
+  }
+
+  .footer-links,
+  .footer-contact {
+    margin-top: 20px;
+  }
+}
