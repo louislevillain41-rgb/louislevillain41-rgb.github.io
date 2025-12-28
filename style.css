@@ -97,11 +97,14 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px 60px;
-  position: absolute;
+
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px 40px;
+
   width: 100%;
-  top: 0;
-  left: 0;
+}
+
 }
 /* --- PAGE HEADER --- */
 .page-header {
