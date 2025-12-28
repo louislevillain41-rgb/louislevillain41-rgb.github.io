@@ -1,12 +1,9 @@
-/* --- BASE --- */
 body {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
   background: #000;
   color: #fff;
 }
-
-/* --- HERO --- */
 .hero {
   min-height: 100vh;
   background:
@@ -28,8 +25,6 @@ body {
   font-size: 1.2rem;
   color: #b5b5b5;
 }
-
-/* --- BUTTONS --- */
 .hero-buttons {
   margin-top: 30px;
 }
@@ -60,8 +55,6 @@ body {
   background: #fff;
   color: #000;
 }
-
-/* --- INTRO --- */
 .intro {
   padding: 80px 20px;
   text-align: center;
@@ -105,12 +98,10 @@ body {
 
   position: relative;
 }
-/* --- PAGE HEADER --- */
 .page-header {
-  padding: 140px 40px 60px;
+  padding: 80px 40px 60px;
   text-align: center;
 }
-
 .page-header h1 {
   font-size: 3rem;
   margin-bottom: 10px;
@@ -120,7 +111,6 @@ body {
   color: #b5b5b5;
   font-size: 1.1rem;
 }
-/* --- CARS GRID --- */
 .cars {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
